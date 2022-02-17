@@ -178,7 +178,7 @@
     AOS.init({
       duration: 1000,
       easing: "ease-in-out-back",
-      once: false
+      once: true
     });
   }
   $(window).on('load', function() {
