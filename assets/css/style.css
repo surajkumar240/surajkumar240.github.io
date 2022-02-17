@@ -7,7 +7,19 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+body::-webkit-scrollbar {
+  width: 7px;               /* width of the entire scrollbar */
+}
 
+body::-webkit-scrollbar-track {
+  background: #ededed;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 4px solid #c4c4c4;  /* creates padding around scroll thumb */
+}
 a {
   color: #149ddd;
 }
