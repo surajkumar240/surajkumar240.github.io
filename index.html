@@ -22,9 +22,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link rel="icon" 
-  type="image/png" 
-  href="./assets/img/favicon.png" />
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+  <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
 </head>
 
 <body ondragstart="return false;" ondrop="return false;" oncontextmenu="return false" onselectstart="return false" style=" max-width: 100%;
@@ -60,7 +59,7 @@ overflow-x: hidden;">
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Suraj Kumar</h1>
+      <h1 id="hero-text"></h1>
       <p>Class 9</p>
     </div>
   </section><!-- End Hero -->
@@ -108,7 +107,7 @@ overflow-x: hidden;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sci.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="https://docs.google.com/presentation/d/15F75QMVq4xLVkpNI7_fViSdLTt_sUxPd/embed?" title="More Details"><i class="bx bx-link" target="_blank"></i></a>
+                <a href="https://docs.google.com/presentation/d/15F75QMVq4xLVkpNI7_fViSdLTt_sUxPd/embed?" target="_blank" title="More Details"><i class="bx bx-link" target="_blank"></i></a>
               </div>
             </div>
           </div>
@@ -116,7 +115,7 @@ overflow-x: hidden;">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/nn.jpg" class="img-fluid" alt="">
               <div class="portfolio-links"> 
-                <a href="https://docs.google.com/presentation/d/14qLU8K5Eqnd_Lq7wMfrlS8LvTC749pG9/embed?slide=id.p1" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://docs.google.com/presentation/d/14qLU8K5Eqnd_Lq7wMfrlS8LvTC749pG9/embed?slide=id.p1" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -181,7 +180,7 @@ overflow-x: hidden;">
        
       </div>
       <div class="credits">
-        <strong><span>Made with ❤️ by Suraj</span></strong>
+        <strong><span>Made With ❤️ By Suraj</span></strong>
       </div>
     </div>
   </footer><!-- End  Footer -->
@@ -203,7 +202,16 @@ overflow-x: hidden;">
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+<script>
+  new TypeIt("#hero-text", {
+  strings: "Suraj Kumar",
+  speed: 150,
+  loop: false,
+  afterComplete: function (instance) {
+    instance.destroy();
+  }
+}).go();
+</script>
 </body>
 
 </html>
