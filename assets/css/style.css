@@ -5,6 +5,9 @@ html {
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.img-fluid{
+  border-radius: 10px;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;

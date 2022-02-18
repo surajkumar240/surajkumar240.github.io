@@ -190,3 +190,8 @@
 [].forEach.call(document.getElementsByClassName("iframe-lightbox-link"), function (el) {
   el.lightbox = new IframeLightbox(el);
 });
+// To apply lightbox to a group of links
+UIkit.lightbox(element, options);
+
+// To dynamically initialize the lightbox panel
+UIkit.lightboxPanel(panelOptions);
