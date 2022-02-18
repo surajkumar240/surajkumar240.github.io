@@ -385,12 +385,13 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  font-size: 28px;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
   cursor: pointer;
+  border-radius: 0 0 10px 10px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
