@@ -195,6 +195,8 @@ UIkit.lightbox(element, options);
 
 // To dynamically initialize the lightbox panel
 UIkit.lightboxPanel(panelOptions);
+
+JotForm.isEncrypted = true;
 	JotForm.init(function(){
 	/*INIT-START*/
 if (window.JotForm && JotForm.accessible) $('input_5').setAttribute('tabindex',0);
