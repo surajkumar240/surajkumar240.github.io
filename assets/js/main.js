@@ -195,3 +195,15 @@ UIkit.lightbox(element, options);
 
 // To dynamically initialize the lightbox panel
 UIkit.lightboxPanel(panelOptions);
+
+<script type="text/javascript">
+	JotForm.init(function(){
+	/*INIT-START*/
+if (window.JotForm && JotForm.accessible) $('input_5').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_7').setAttribute('tabindex',0);
+      JotForm.setCustomHint( 'input_7', 'Type here...' );
+      JotForm.alterTexts(undefined);
+	JotEncrypted.setPublicKey("-----BEGIN PUBLIC KEY-----MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQB3euooAvMkAaFW/P4zAoM1FDcuAaNhmUeNzArSOyRGwsmZUkCpR03yreg470BkEFgEIRuUTAHVmhWzTnWXMX5RC5D86yiS/VwL/uPm1GvCl/Cd1LAspnvhDYirubvEADOuYD6NvuXsKHAHBT9jW5qKDs0tOjIVKLt1U+F9RED4/PsmrzqUhqn4FQp5k+vcfkdU61fb4qH2t9zf4OtzOlc9UEb1Qaxa2baPfPK3hDcBCwTscHVJ/My7qYQaVcSeE+PXjbGcrVN8uFALqBZav5Ahw/fvKqg29JuRwXmPyhpjLPvgqo60CiS92jBqrZ9R+/XxjPuDb1JVOrPKV1lZYWpjAgMBAAE=-----END PUBLIC KEY-----");
+	/*INIT-END*/
+	});
+</script>
