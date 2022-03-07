@@ -197,6 +197,7 @@ UIkit.lightbox(element, options);
 UIkit.lightboxPanel(panelOptions);
 
 <script type="text/javascript">
+JotForm.isEncrypted = true;
 	JotForm.init(function(){
 	/*INIT-START*/
 if (window.JotForm && JotForm.accessible) $('input_5').setAttribute('tabindex',0);
